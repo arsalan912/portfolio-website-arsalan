@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>پورتفولیو طراحی صنعتی</title>
+  <meta name="description" content="بانک پروژه‌های طراحی صنعتی: محصولات پزشکی، زیبایی، دیوایس‌ها، بطری و بیشتر.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="logo" href="#" id="logo"></a>
+    <span class="top-count" id="topCount"></span>
+  </header>
+
+  <main id="home">
+    <section class="hero" id="hero">
+      <div class="hero-in">
+        <p class="role r1" id="role"></p>
+        <h1 class="r2" id="name"></h1>
+        <p class="bio r3" id="bio"></p>
+      </div>
+      <div class="hint r4" aria-hidden="true"><span>برای دیدن دسته‌ها اسکرول کنید</span><i></i></div>
+    </section>
+
+    <section class="track" id="track" aria-label="دسته‌بندی پروژه‌ها">
+      <div class="stick">
+        <p class="dhint">اسکرول کنید تا استوانه بچرخد؛ روی دسته‌ی جلویی بزنید تا باز شود</p>
+        <div class="scene"><div class="drum" id="drum"></div></div>
+        <div class="prog" aria-hidden="true">
+          <b id="pnum"></b>
+          <div class="bar"><i id="pbar"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="foot" id="contact">
+      <h2>در تماس باشیم</h2>
+      <div class="links" id="links"></div>
+    </footer>
+  </main>
+
+  <section class="view" id="view" aria-hidden="true" aria-label="پروژه‌های دسته">
+    <div class="view-top">
+      <button class="back" id="back" type="button">بازگشت به دسته‌ها</button>
+      <div class="chips" id="chips"></div>
+    </div>
+    <div class="view-in">
+      <p class="view-code" id="vcode"></p>
+      <h2 id="vtitle"></h2>
+      <p class="count" id="vcount"></p>
+      <div id="grid" class="grid"></div>
+    </div>
+  </section>
+
+  <dialog id="dlg" aria-label="جزئیات پروژه">
+    <button class="close" id="close" aria-label="بستن">×</button>
+    <div class="d-body" id="dbody"></div>
+  </dialog>
+
+  <script src="projects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
